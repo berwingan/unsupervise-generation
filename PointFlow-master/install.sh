@@ -10,7 +10,7 @@ root=`pwd`
 # Compile CUDA kernel for CD/EMD loss
 cd metrics/pytorch_structural_losses/
 make clean
-make -gencode arch=compute_37,code=sm_37
+make 
 cd $root
 
 # install torchdiffeq
